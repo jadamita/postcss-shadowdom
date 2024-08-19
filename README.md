@@ -3,9 +3,9 @@
 A PostCSS plugin that converts `:root` selectors to `:host` selectors for use in Shadow DOM.
 
 [![npm version](https://badge.fury.io/js/postcss-shadowdom.svg)](https://badge.fury.io/js/postcss-shadowdom)
+[![codecov](https://codecov.io/gh/jadamita/postcss-shadowdom/branch/main/graph/badge.svg)](https://codecov.io/gh/jadamita/postcss-shadowdom)
 [![CI](https://github.com/jadamita/postcss-shadowdom/actions/workflows/ci.yml/badge.svg)](https://github.com/jadamita/postcss-shadowdom/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 
 ## Installation
 
