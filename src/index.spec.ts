@@ -7,7 +7,7 @@ async function run(input: string, output: string) {
   expect(result.warnings()).toHaveLength(0);
 }
 
-describe('postcss-root-to-host', () => {
+describe('postcss-shadowdom', () => {
   it('should replace :root with :host', async () => {
     await run(':root { color: red; }', ':host { color: red; }');
   });
