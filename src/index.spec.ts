@@ -1,8 +1,8 @@
 import postcss from 'postcss';
-import postcssRootToHost from './index';
+import postcssShadowdom from './index';
 
 async function run(input: string, output: string) {
-  const result = await postcss([postcssRootToHost()]).process(input, { from: undefined });
+  const result = await postcss([postcssShadowdom()]).process(input, { from: undefined });
   expect(result.css).toEqual(output);
   expect(result.warnings()).toHaveLength(0);
 }

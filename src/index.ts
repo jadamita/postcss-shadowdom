@@ -1,10 +1,10 @@
 import { Rule, Plugin } from 'postcss';
 
-interface PostcssRootToHostOptions {}
+interface PostcssShadowdomProps {}
 
-const postcssRootToHost = (opts: PostcssRootToHostOptions = {}): Plugin => {
+const postcssShadowdom = (opts: PostcssShadowdomProps = {}): Plugin => {
   return {
-    postcssPlugin: 'postcss-root-to-host',
+    postcssPlugin: 'postcss-shadowdom',
     Rule(rule: Rule): void {
       if (rule.selector.toLowerCase().includes(':root')) {
         rule.selector = rule.selector.replace(/:root\b/gi, ':host');
@@ -21,6 +21,6 @@ const postcssRootToHost = (opts: PostcssRootToHostOptions = {}): Plugin => {
   };
 };
 
-postcssRootToHost.postcss = true;
+postcssShadowdom.postcss = true;
 
-export = postcssRootToHost;
+export = postcssShadowdom;
