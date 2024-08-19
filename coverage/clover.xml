@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1724069324002" clover="3.2.0">
-  <project timestamp="1724069324002" name="All files">
+<coverage generated="1724069473717" clover="3.2.0">
+  <project timestamp="1724069473717" name="All files">
     <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3" elements="16" coveredelements="15" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
     <file name="index.ts" path="C:\dev\projects\postcss-shadowdom\src\index.ts">
       <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="23" failures="0" errors="0" time="1.615">
+  <testsuite name="postcss-root-to-host" errors="0" failures="0" skipped="0" timestamp="2024-08-19T12:11:12" time="1.497" tests="23">
+    <testcase classname="postcss-root-to-host should replace :root with :host" name="postcss-root-to-host should replace :root with :host" time="0.006">
+    </testcase>
+    <testcase classname="postcss-root-to-host should not modify other selectors" name="postcss-root-to-host should not modify other selectors" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle multiple :root selectors" name="postcss-root-to-host should handle multiple :root selectors" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should replace :root in complex selectors" name="postcss-root-to-host should replace :root in complex selectors" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root with pseudo-classes" name="postcss-root-to-host should handle :root with pseudo-classes" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should replace :root in comma-separated selectors" name="postcss-root-to-host should replace :root in comma-separated selectors" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle multiple :root occurrences in a single rule" name="postcss-root-to-host should handle multiple :root occurrences in a single rule" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should not replace :root within strings" name="postcss-root-to-host should not replace :root within strings" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root with attribute selectors" name="postcss-root-to-host should handle :root with attribute selectors" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle multiple attribute selectors" name="postcss-root-to-host should handle multiple attribute selectors" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should not modify :root-like substrings in other selectors" name="postcss-root-to-host should not modify :root-like substrings in other selectors" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root selector with spaces" name="postcss-root-to-host should handle :root selector with spaces" time="0.004">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle mixed :root and non-:root selectors" name="postcss-root-to-host should handle mixed :root and non-:root selectors" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root with child combinators" name="postcss-root-to-host should handle :root with child combinators" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root with descendant combinators" name="postcss-root-to-host should handle :root with descendant combinators" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root with adjacent sibling combinators" name="postcss-root-to-host should handle :root with adjacent sibling combinators" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root with general sibling combinators" name="postcss-root-to-host should handle :root with general sibling combinators" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle multiple complex cases in one stylesheet" name="postcss-root-to-host should handle multiple complex cases in one stylesheet" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should not modify @media rules content" name="postcss-root-to-host should not modify @media rules content" time="0.001">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root inside @supports" name="postcss-root-to-host should handle :root inside @supports" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should not modify CSS custom properties definitions" name="postcss-root-to-host should not modify CSS custom properties definitions" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle :root with pseudo-elements" name="postcss-root-to-host should handle :root with pseudo-elements" time="0">
+    </testcase>
+    <testcase classname="postcss-root-to-host should handle case insensitivity of :root" name="postcss-root-to-host should handle case insensitivity of :root" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
