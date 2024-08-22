@@ -22,6 +22,20 @@ const postcssShadowdom = require("postcss-shadowdom");
 postcss([postcssShadowdom()]).process(your_css /*, processOptions */);
 ```
 
+## Options
+
+The plugin accepts an options object with the following property:
+
+- **customHostSelector** (optional): A string to use as the host selector instead of the default :host. Default value is :host.
+
+Example:
+
+```js
+postcss([postcssShadowdom({ customHostSelector: ":shadow-root" })]).process(
+  your_css,
+);
+```
+
 ## Usage with PostCSS CLI
 
 Add to your postcss.config.js:
