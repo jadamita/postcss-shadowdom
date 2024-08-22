@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1724069473717" clover="3.2.0">
-  <project timestamp="1724069473717" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3" elements="16" coveredelements="15" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
+<coverage generated="1724344281125" clover="3.2.0">
+  <project timestamp="1724344281126" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="5" coveredconditionals="3" methods="3" coveredmethods="3" elements="18" coveredelements="16" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
     <file name="index.ts" path="C:\dev\projects\postcss-shadowdom\src\index.ts">
-      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
-      <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="6" count="23" type="stmt"/>
-      <line num="9" count="29" type="cond" truecount="1" falsecount="0"/>
-      <line num="10" count="26" type="stmt"/>
-      <line num="12" count="26" type="stmt"/>
-      <line num="15" count="3" type="cond" truecount="1" falsecount="1"/>
-      <line num="16" count="3" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
+      <metrics statements="10" coveredstatements="10" conditionals="5" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <line num="7" count="1" type="cond" truecount="0" falsecount="1"/>
+      <line num="8" count="32" type="cond" truecount="1" falsecount="0"/>
+      <line num="10" count="32" type="stmt"/>
+      <line num="13" count="38" type="cond" truecount="1" falsecount="0"/>
+      <line num="14" count="35" type="stmt"/>
+      <line num="16" count="35" type="stmt"/>
+      <line num="20" count="5" type="cond" truecount="1" falsecount="1"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

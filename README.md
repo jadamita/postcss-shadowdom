@@ -16,26 +16,26 @@ npm install --save-dev postcss-shadowdom
 ## Usage
 
 ```js
-const postcss = require('postcss');
-const postcssShadowdom = require('postcss-shadowdom');
+const postcss = require("postcss");
+const postcssShadowdom = require("postcss-shadowdom");
 
-postcss([
-  postcssShadowdom()
-]).process(your_css /*, processOptions */);
+postcss([postcssShadowdom()]).process(your_css /*, processOptions */);
 ```
 
 ## Usage with PostCSS CLI
+
 Add to your postcss.config.js:
+
 ```js
 jsCopymodule.exports = {
-  plugins: [
-    require('postcss-shadowdom'),
-  ]
-}
+  plugins: [require("postcss-shadowdom")],
+};
 ```
 
 ## Usage with webpack
+
 Add to your webpack.config.js:
+
 ```js
 module.exports = {
   module: {
@@ -43,15 +43,13 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
-          'css-loader',
+          "style-loader",
+          "css-loader",
           {
-            loader: 'postcss-loader',
+            loader: "postcss-loader",
             options: {
               postcssOptions: {
-                plugins: [
-                  require('postcss-shadowdom'),
-                ],
+                plugins: [require("postcss-shadowdom")],
               },
             },
           },
@@ -63,9 +61,11 @@ module.exports = {
 ```
 
 ## What it does
+
 This plugin converts CSS rules that use the :root selector to use the :host selector instead, making them compatible with Shadow DOM.
 
 For example, this CSS:
+
 ```css
 :root {
   --primary-color: blue;
@@ -77,6 +77,7 @@ For example, this CSS:
 ```
 
 Will be transformed to:
+
 ```css
 :host {
   --primary-color: blue;
@@ -88,4 +89,5 @@ Will be transformed to:
 ```
 
 ## Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.

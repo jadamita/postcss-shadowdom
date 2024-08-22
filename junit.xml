@@ -1,51 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="23" failures="0" errors="0" time="1.615">
-  <testsuite name="postcss-root-to-host" errors="0" failures="0" skipped="0" timestamp="2024-08-19T12:11:12" time="1.497" tests="23">
-    <testcase classname="postcss-root-to-host should replace :root with :host" name="postcss-root-to-host should replace :root with :host" time="0.006">
+<testsuites name="jest tests" tests="41" failures="15" errors="0" time="3.025">
+  <testsuite name="postcss-shadowdom" errors="0" failures="15" skipped="0" timestamp="2024-08-22T16:14:26" time="2.881" tests="41">
+    <testcase classname="postcss-shadowdom should replace :root with :host" name="postcss-shadowdom should replace :root with :host" time="0.009">
     </testcase>
-    <testcase classname="postcss-root-to-host should not modify other selectors" name="postcss-root-to-host should not modify other selectors" time="0">
+    <testcase classname="postcss-shadowdom should not modify other selectors" name="postcss-shadowdom should not modify other selectors" time="0">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle multiple :root selectors" name="postcss-root-to-host should handle multiple :root selectors" time="0">
+    <testcase classname="postcss-shadowdom should handle multiple :root selectors" name="postcss-shadowdom should handle multiple :root selectors" time="0">
     </testcase>
-    <testcase classname="postcss-root-to-host should replace :root in complex selectors" name="postcss-root-to-host should replace :root in complex selectors" time="0.001">
+    <testcase classname="postcss-shadowdom should replace :root in complex selectors" name="postcss-shadowdom should replace :root in complex selectors" time="0">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root with pseudo-classes" name="postcss-root-to-host should handle :root with pseudo-classes" time="0.001">
+    <testcase classname="postcss-shadowdom should handle :root with pseudo-classes" name="postcss-shadowdom should handle :root with pseudo-classes" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should replace :root in comma-separated selectors" name="postcss-root-to-host should replace :root in comma-separated selectors" time="0">
+    <testcase classname="postcss-shadowdom should replace :root in comma-separated selectors" name="postcss-shadowdom should replace :root in comma-separated selectors" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle multiple :root occurrences in a single rule" name="postcss-root-to-host should handle multiple :root occurrences in a single rule" time="0.001">
+    <testcase classname="postcss-shadowdom should handle multiple :root occurrences in a single rule" name="postcss-shadowdom should handle multiple :root occurrences in a single rule" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should not replace :root within strings" name="postcss-root-to-host should not replace :root within strings" time="0.001">
+    <testcase classname="postcss-shadowdom should not replace :root within strings" name="postcss-shadowdom should not replace :root within strings" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root with attribute selectors" name="postcss-root-to-host should handle :root with attribute selectors" time="0.001">
+    <testcase classname="postcss-shadowdom should handle :root with attribute selectors" name="postcss-shadowdom should handle :root with attribute selectors" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle multiple attribute selectors" name="postcss-root-to-host should handle multiple attribute selectors" time="0">
+    <testcase classname="postcss-shadowdom should handle multiple attribute selectors" name="postcss-shadowdom should handle multiple attribute selectors" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should not modify :root-like substrings in other selectors" name="postcss-root-to-host should not modify :root-like substrings in other selectors" time="0.001">
+    <testcase classname="postcss-shadowdom should not modify :root-like substrings in other selectors" name="postcss-shadowdom should not modify :root-like substrings in other selectors" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root selector with spaces" name="postcss-root-to-host should handle :root selector with spaces" time="0.004">
+    <testcase classname="postcss-shadowdom should handle :root selector with spaces" name="postcss-shadowdom should handle :root selector with spaces" time="0">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle mixed :root and non-:root selectors" name="postcss-root-to-host should handle mixed :root and non-:root selectors" time="0.001">
+    <testcase classname="postcss-shadowdom should handle mixed :root and non-:root selectors" name="postcss-shadowdom should handle mixed :root and non-:root selectors" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root with child combinators" name="postcss-root-to-host should handle :root with child combinators" time="0">
+    <testcase classname="postcss-shadowdom should handle :root with child combinators" name="postcss-shadowdom should handle :root with child combinators" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root with descendant combinators" name="postcss-root-to-host should handle :root with descendant combinators" time="0">
+    <testcase classname="postcss-shadowdom should handle :root with descendant combinators" name="postcss-shadowdom should handle :root with descendant combinators" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root with adjacent sibling combinators" name="postcss-root-to-host should handle :root with adjacent sibling combinators" time="0.001">
+    <testcase classname="postcss-shadowdom should handle :root with adjacent sibling combinators" name="postcss-shadowdom should handle :root with adjacent sibling combinators" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root with general sibling combinators" name="postcss-root-to-host should handle :root with general sibling combinators" time="0">
+    <testcase classname="postcss-shadowdom should handle :root with general sibling combinators" name="postcss-shadowdom should handle :root with general sibling combinators" time="0">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle multiple complex cases in one stylesheet" name="postcss-root-to-host should handle multiple complex cases in one stylesheet" time="0.001">
+    <testcase classname="postcss-shadowdom should handle multiple complex cases in one stylesheet" name="postcss-shadowdom should handle multiple complex cases in one stylesheet" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should not modify @media rules content" name="postcss-root-to-host should not modify @media rules content" time="0.001">
+    <testcase classname="postcss-shadowdom should not modify @media rules content" name="postcss-shadowdom should not modify @media rules content" time="0.001">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root inside @supports" name="postcss-root-to-host should handle :root inside @supports" time="0">
+    <testcase classname="postcss-shadowdom should handle :root inside @supports" name="postcss-shadowdom should handle :root inside @supports" time="0">
     </testcase>
-    <testcase classname="postcss-root-to-host should not modify CSS custom properties definitions" name="postcss-root-to-host should not modify CSS custom properties definitions" time="0">
+    <testcase classname="postcss-shadowdom should not modify CSS custom properties definitions" name="postcss-shadowdom should not modify CSS custom properties definitions" time="0">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle :root with pseudo-elements" name="postcss-root-to-host should handle :root with pseudo-elements" time="0">
+    <testcase classname="postcss-shadowdom should handle :root with pseudo-elements" name="postcss-shadowdom should handle :root with pseudo-elements" time="0">
     </testcase>
-    <testcase classname="postcss-root-to-host should handle case insensitivity of :root" name="postcss-root-to-host should handle case insensitivity of :root" time="0">
+    <testcase classname="postcss-shadowdom should handle case insensitivity of :root" name="postcss-shadowdom should handle case insensitivity of :root" time="0">
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should only transform :root when scope is not provided" name="postcss-shadowdom scope option should only transform :root when scope is not provided" time="0.001">
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should transform selectors matching string scope" name="postcss-shadowdom scope option should transform selectors matching string scope" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:root { color: red; } :host { background: blue; }&quot;
+Received: &quot;:root { color: red; } .theme { background: blue; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:155:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should transform selectors matching RegExp scope" name="postcss-shadowdom scope option should transform selectors matching RegExp scope" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:root { color: red; } :host { background: black; } :host { background: white; }&quot;
+Received: &quot;:root { color: red; } .theme-dark { background: black; } .theme-light { background: white; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:163:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should transform selectors matching array of string and RegExp scopes" name="postcss-shadowdom scope option should transform selectors matching array of string and RegExp scopes" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host { color: red; } :host { background: blue; } .custom { padding: 10px; }&quot;
+Received: &quot;:host { color: red; } .theme { background: blue; } .custom { padding: 10px; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:171:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should not transform selectors not matching the scope" name="postcss-shadowdom scope option should not transform selectors not matching the scope" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:root { color: red; } :host { background: blue; } .custom { padding: 10px; }&quot;
+Received: &quot;:root { color: red; } .theme { background: blue; } .custom { padding: 10px; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:179:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle empty scope array" name="postcss-shadowdom scope option should handle empty scope array" time="0.001">
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle scope with no matches" name="postcss-shadowdom scope option should handle scope with no matches" time="0">
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should transform nested selectors matching the scope" name="postcss-shadowdom scope option should transform nested selectors matching the scope" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host { color: blue; .nested { background: red; } }&quot;
+Received: &quot;.theme { color: blue; .nested { background: red; } }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:203:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle complex selectors with scope" name="postcss-shadowdom scope option should handle complex selectors with scope" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host.dark[data-mode=&apos;night&apos;] { color: white; }&quot;
+Received: &quot;.theme.dark[data-mode=&apos;night&apos;] { color: white; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:211:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle multiple occurrences of scoped selectors" name="postcss-shadowdom scope option should handle multiple occurrences of scoped selectors" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host { color: blue; } .content { padding: 10px; } :host { background: red; }&quot;
+Received: &quot;.theme { color: blue; } .content { padding: 10px; } .theme { background: red; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:219:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle case-insensitive RegExp scope" name="postcss-shadowdom scope option should handle case-insensitive RegExp scope" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host { color: blue; } :host { background: red; }&quot;
+Received: &quot;.Theme { color: blue; } .THEME { background: red; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:227:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should not transform selectors within strings when using scope" name="postcss-shadowdom scope option should not transform selectors within strings when using scope" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host { content: &apos;.theme&apos;; }&quot;
+Received: &quot;.theme { content: &apos;.theme&apos;; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:235:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle scope with attribute selectors" name="postcss-shadowdom scope option should handle scope with attribute selectors" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host { color: blue; }&quot;
+Received: &quot;[data-theme] { color: blue; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:243:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle scope with pseudo-classes" name="postcss-shadowdom scope option should handle scope with pseudo-classes" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host:hover { color: blue; }&quot;
+Received: &quot;.theme:hover { color: blue; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:249:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle scope with pseudo-elements" name="postcss-shadowdom scope option should handle scope with pseudo-elements" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host::before { content: &apos;&apos;; }&quot;
+Received: &quot;.theme::before { content: &apos;&apos;; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:257:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle multiple selectors with some matching scope" name="postcss-shadowdom scope option should handle multiple selectors with some matching scope" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;:host, .content, :host { color: blue; }&quot;
+Received: &quot;.theme, .content, .theme-dark { color: blue; }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:265:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle scope in @media queries" name="postcss-shadowdom scope option should handle scope in @media queries" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;@media (min-width: 768px) { :host { color: blue; } }&quot;
+Received: &quot;@media (min-width: 768px) { .theme { color: blue; } }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:273:7)</failure>
+    </testcase>
+    <testcase classname="postcss-shadowdom scope option should handle scope in @supports rules" name="postcss-shadowdom scope option should handle scope in @supports rules" time="0">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;@supports (display: grid) { :host { display: grid; } }&quot;
+Received: &quot;@supports (display: grid) { .theme { display: grid; } }&quot;
+    at run (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:8:22)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.&lt;anonymous&gt; (C:\dev\projects\postcss-shadowdom\src\index.spec.ts:281:7)</failure>
     </testcase>
   </testsuite>
 </testsuites>
